@@ -6,47 +6,67 @@
     <title>The 11 Manipulation Tactics</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background: #f9f9f9;
             color: #333;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+            padding: 2rem 1rem;
             text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1200px;
             margin: auto;
             overflow: hidden;
         }
         .main-content {
-            background: white;
+            background: #fff;
             padding: 2rem;
             margin-top: 1rem;
-            border-radius: 5px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        h1, h2 {
+        h2 {
             color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
         }
         a {
             color: #4CAF50;
             text-decoration: none;
+            font-weight: bold;
         }
         a:hover {
             text-decoration: underline;
         }
         footer {
-            background-color: #333;
-            color: white;
+            background: #333;
+            color: #fff;
             text-align: center;
-            padding: 1rem 0;
-            position: relative;
+            padding: 1rem;
+            position: absolute;
             bottom: 0;
             width: 100%;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
         }
     </style>
 </head>
@@ -54,12 +74,12 @@
     <header>
         <div class="container">
             <h1>The 11 Manipulation Tactics</h1>
-            <p>An in-depth exploration of psychological influence techniques.</p>
+            <p>Explore psychological tactics for influence and persuasion.</p>
         </div>
     </header>
     <div class="container main-content">
         <h2>Welcome</h2>
-        <p>Welcome to the official page for <strong>The 11 Manipulation Tactics</strong>. This eBook provides a comprehensive look at various psychological tactics used to influence and manipulate behavior. Dive into each tactic to understand its use and implications.</p>
+        <p>Welcome to the official page for <strong>The 11 Manipulation Tactics</strong>. This eBook offers a comprehensive look at various psychological methods used to influence and manipulate behavior. Discover each tactic in detail and understand its implications.</p>
         
         <h2>Table of Contents</h2>
         <ul>
@@ -78,40 +98,40 @@
         </ul>
         
         <h2 id="introduction">Introduction</h2>
-        <p>An overview of the key concepts and significance of manipulation tactics.</p>
+        <p>An overview of the significance of psychological manipulation and its impact.</p>
 
         <h2 id="social-proof">Social Proof</h2>
-        <p>How the behavior of others influences individual decision-making.</p>
+        <p>Understanding how the actions of others influence decision-making.</p>
 
         <h2 id="reciprocity">Reciprocity</h2>
-        <p>The principle of reciprocation and its impact on behavior.</p>
+        <p>The principle of reciprocation and its effects on behavior.</p>
 
         <h2 id="scarcity">Scarcity</h2>
-        <p>The effects of scarcity on perceived value and decision-making.</p>
+        <p>The impact of limited availability on perceived value.</p>
 
         <h2 id="authority">Authority</h2>
-        <p>Leveraging authority to influence others' compliance.</p>
+        <p>The influence of perceived authority on compliance.</p>
 
         <h2 id="consistency">Consistency</h2>
-        <p>Using commitment to ensure consistency in behavior.</p>
+        <p>Encouraging consistency through initial commitments.</p>
 
         <h2 id="liking">Liking</h2>
-        <p>The role of likeability in influencing decisions.</p>
+        <p>The role of likability in influencing others.</p>
 
         <h2 id="framing">Framing</h2>
-        <p>How information presentation affects perception and choices.</p>
+        <p>How the presentation of information affects decision-making.</p>
 
         <h2 id="deception">Deception</h2>
-        <p>Understanding how deception is used in manipulation.</p>
+        <p>Exploring how deception is employed in manipulation.</p>
 
         <h2 id="emotional-manipulation">Emotional Manipulation</h2>
         <p>Techniques for influencing through emotional appeals.</p>
 
         <h2 id="guilt-induction">Guilt Induction</h2>
-        <p>The use of guilt as a tool for manipulation.</p>
+        <p>Using guilt as a method of influence.</p>
 
         <h2 id="conclusion">Conclusion</h2>
-        <p>Summarizing key takeaways and ethical considerations.</p>
+        <p>Summarizing the key points and discussing ethical considerations.</p>
 
         <h2>Download the eBook</h2>
         <p>Get your copy of the eBook [here](#). (Replace with actual download link)</p>
